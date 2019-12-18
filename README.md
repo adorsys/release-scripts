@@ -1,6 +1,6 @@
-# release-scripts [![Build Status](https://travis-ci.com/borisskert/release-scripts.svg?branch=master)](https://travis-ci.com/borisskert/release-scripts)
+# release-scripts [![Build Status](https://travis-ci.com/adorsys/release-scripts.svg?branch=master)](https://travis-ci.com/adorsys/release-scripts)
 
-release-scripts (also called Boris' magic scripts 😇) are designed to be used to perform software releases synchronously
+release-scripts (also called [Boris'](https://github.com/borisskert) magic scripts 😇) are designed to be used to perform software releases synchronously
  in multi-module mono-repositories despite of bunches of different technologies.
 Using release-scripts may redundantize plugins like maven-release-plugin.
 
@@ -28,7 +28,7 @@ Especially the release and hotfix step of git-flow requires a lot commits and me
 * Perform this steps in terminal:
 
 ```bash
-  $ git submodule add https://github.com/borisskert/release-scripts release-scripts
+  $ git submodule add https://github.com/adorsys/release-scripts release-scripts
   $ cp release-scripts/.hooks-default.sh .release-scripts-hooks.sh
 ```
 
